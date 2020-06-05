@@ -5,8 +5,8 @@
 ## Musicals 音乐
 
 * [Running 跑步](running/README.md)
-  * [The Beginning Runner’s Handbook](running/13/README.md)
+  * [The Beginning Runner’s Handbook 爱上跑步的13天](running/13/README.md)
 
 ## Tools 工具
 
-[midicomp](https://github.com/markc/midicomp)
+[midicomp txt转换midi文件](https://github.com/markc/midicomp)
