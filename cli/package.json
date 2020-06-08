@@ -1,0 +1,29 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "musical-timer cli",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xuender/musical-timer.git"
+  },
+  "author": "xuender",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/xuender/musical-timer/issues"
+  },
+  "homepage": "https://github.com/xuender/musical-timer#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.155",
+    "@types/node": "^14.0.11",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
