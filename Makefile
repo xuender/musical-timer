@@ -120,6 +120,10 @@ build:
 	midicomp -c running/13/13-2A.asc dist/zh/13/13周2次A-跑10走1轮3.mid
 	midicomp -c running/13/13-1B.asc dist/zh/13/13周1次B-跑10走1轮4.mid
 	midicomp -c running/13/13-2B.asc dist/zh/13/13周2次B-跑4走1轮6.mid
+	cd dist/en && zip -r ../musical-timer_en.zip *
+	@cd ../..
+	cd dist/zh && zip -r ../musical-timer_zh.zip *
+	@cd ../..
 
 clean:
 	@rm -rf dist
