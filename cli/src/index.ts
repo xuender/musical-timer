@@ -66,7 +66,8 @@ function part(part: string[], time: number) {
 
 function load(asc: string) {
   console.debug(`load [ ${asc} ].`)
-  return filter(fs.readFileSync(asc, 'ascii').split('\n'), s => s.includes('vol'))
+  return filter(fs.readFileSync(asc, 'ascii')
+    .split('\n'), s => s.includes('vol'))
 }
 
 main()
