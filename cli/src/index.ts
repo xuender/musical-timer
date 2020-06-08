@@ -51,6 +51,7 @@ MTrk
     }
     data.push(`${padStart(String(endNum + parseInt(last.substr(0, 3))), 3, '0')}${last.substr(3, 7)} Meta TrkEnd
 TrkEnd`)
+    data.push('')
     const fd = fs.openSync(`${PATH}/13/${day}.asc`, 'w')
     fs.writeSync(fd, data.join('\n'))
   }
